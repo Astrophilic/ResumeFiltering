@@ -1,0 +1,1673 @@
+Resume,Job_role,skills,clean_Resume
+" 
+ABOLI
+ 
+LAGAD
+ 
+3695 Stevenson Blvd, Fremont, CA 94538
+| (213)709 6500 | 
+lagad@usc.edu
+ 
+| 
+https://www.linkedin.com/in/aboli
+-
+lagad/
+ 
+ 
+EDUCATION
+ 
+Master of Science, Computer Science, University of Southern California, LA, CA         
+                                                 
+May 2018
+ 
+
+ 
+Coursework: Analysis of Algorithms, Computer Networks, Artificial Intelligence, Programming systems design, 
+Inf
+ormation retrieval and web search engines, Operating systems, Web technologies, Database
+s
+ 
+Bachelor of Engineering, Electronics and Telecommunication, University of Pune, India
+                                     
+ 
+      
+May 2014
+ 
+
+ 
+Co
+-
+
+Comparative imp
+lementation of DOA algorithms
+
+-
+International journal of engineering and management
+ 
+
+ 
+Top
+ 
+4% in 120 students; 
+Recipient of various
+ 
+high academic performance
+ 
+awards
+ 
+ 
+EXPERIENCE
+ 
+Yobs Technologies | Software Engineer 
+intern 
+| Los Angeles, CA
+ 
+                                                 
+               
+Nov 2017
+
+April 2018
+ 
+
+ 
+Work
+ing
+ 
+closely with 5
+-
+member 
+Agile
+ 
+development team and ensur
+ing
+ 
+timely deployment of each sprint
+ 
+
+ 
+Improved efficiencies by 5% by identifying bottlenecks and slow parts in 
+P
+ython
+ 
+code using profiler
+ 
+
+ 
+Developed 
+a
+utomation testing tool 
+in
+ 
+Node.js 
+for periodic tests to ensure data integrity and scheduled in Jenkins
+ 
+Knobull, Inc | Software Engineer
+ 
+intern
+ 
+| Los Angeles, CA            
+                                              
+                    
+ 
+ 
+Dec
+ 
+2017
+
+Feb
+ 
+201
+8
+                               
+ 
+ 
+
+ 
+Worked as software engineer, 
+to
+ 
+develop end
+-
+to
+-
+end design 
+using
+ 
+Angular
+.js
+, 
+Node.js
+, MongoDB
+, Express.js
+ 
+
+ 
+Implemented 
+
+ 
+using
+ 
+Express
+ 
+framework 
+to perform various HTTP requests
+ 
+and tested using postman 
+ 
+
+ 
+Implemented authentication for validation and authorization of users for accessing/posting on web site using Node.js
+ 
+IBM | 
+Software
+ 
+Engineer
+ 
+| India
+    
+                             
+ 
+                                   
+            
+                                
+Aug 2014
+
+Jul 2016
+ 
+
+ 
+Developed 
+&
+ 
+modified various 
+database objects
+: 
+PL/SQL procedures, triggers, indexes 
+as a part of telecom project
+ 
+
+ 
+Reduced manual testing efforts by creating a GUI to enter data directly in databases using 
+JavaScript, HTML
+ 
+
+ 
+Designed knowledge
+-
+based recommendation system to recommend promo packs based on likely used deals in JAVA
+ 
+
+ 
+Collaborated with cross
+-
+functional teams to integrate APIs/services using XML responses based on 
+SOA web services
+ 
+
+ 
+Refactored and Opt
+imized 
+SQL
+ 
+queries, managed performance tuning by reducing CPU usages using explain plans
+ 
+
+ 
+Received 
+Deep Skills Award
+ 
+for developing project specific critical skills in short period of time
+ 
+Seia Solutions
+ 
+(Seia Inc. 
+
+ 
+Intuitive Analytics)
+ 
+| Internship | Volunteer Experience 
+  
+                                
+Dec 2013
+
+May 2014
+ 
+
+ 
+Revamped the static website to responsive design
+ 
+using
+ 
+XML parsers (SAX/DOM)
+, JavaScript, Bootstrap
+ 
+ 
+ 
+ACADEMIC PROJECTS
+ 
+
+ 
+Computer Networks project 
+
+ 
+1. Implemented inst
+ant messaging system using client
+-
+server architecture. Used TCP 
+and UDP sockets for communication and multi
+-
+threading and multi
+-
+processing paradigms in C. 2. Computed shortest 
+paths between routers in network using Bellman Ford algorithm in C++
+ 
+
+ 
+Search Engi
+ne for news
+-
+site
+ 
+-
+ 
+Crawled news
+ 
+web pages using web crawler (Crawler4j); Indexed them using 
+Map/Reduce 
+java 
+job in Hadoop; Ranked them 
+using Apache Solr
+-
+Lucene 
+and 
+provided
+ 
+Auto
+-
+correction, suggestions
+ 
+(Markov chains of n
+-
+grams in 
+Java
+)
+, snippets
+ 
+based on 
+occurrence of search phrase
+ 
+
+ 
+Artificial Intelligence projects
+ 
+| Python
+ 
+
+ 
+1. Implemented Reversi(Othello) game using Alpha beta pruning to find next 
+best move; 2. SAT encoder by generating Conjunctive normal form(CNF) sentences and WalkSAT, DPLL algorithms t
+o 
+find the satisfying solution if any; 3. Computed various probabilities in decision network to determine the best decision
+ 
+
+ 
+Congress Information Search
+ 
+| Mobile development
+ 
+-
+ 
+Developed 
+A
+ndroid application
+ 
+in Java (Android studio)
+ 
+for 
+information in congres
+s having legislature, Bills, Committees, and Favorites tabs
+ 
+by parsing JSON response from 
+sunlight RESTfull API
+; Used PHP for server
+-
+side scripting, 
+and hosted
+ 
+on AWS
+ 
+EC2 cloud
+ 
+ 
+PERSONAL PROJECT
+ 
+Autonomous Teaching System 
+| Web applications
+ 
+
+ 
+Created web application for online coaching system, with a feature to avoid duplicate doubts being posted by students 
+to a professor. Presented similar doubts already saved in system. Displayed suggestions using 
+AngularJs,
+ 
+Javascript,
+ 
+HTML5, CSS
+, on Front 
+End; 
+AJAX
+ 
+to avoid page refresh, 
+PHP
+ 
+on back end and RethinkDB(
+NoSQL
+) to save data
+ 
+ 
+LANGUAGES, WEB TECHNOLOGIES, DATA AND OTHER TECHNICAL SKILLS
+ 
+
+ 
+Java, C, C++, Python, MatLab, Waterfall, Agile, Heroku, AWS, Git, JavaScript, PHP, CSS, Angular.Js, jQuery, Map
+Reduce
+ 
+
+ 
+Bootstrap, AJAX, NodeJs, JSON, HTML5, Express.js, SQL, PL/SQL, MySQL, PostgreSQL
+, MVC,
+ 
+NoSQL
+ 
+
+ 
+Object
+-
+oriented 
+programming/
+design, Data Structures, 
+Distributed systems, Test
+-
+Driven development
+ 
+ 
+",BE,"['Computer science', 'Pl/sql', 'Programming', 'Engineering', 'Ibm', 'Telecom', 'Queries', 'Analysis', 'Sql', 'Electronics', 'C', 'Html', 'Design', 'Requests', 'Mobile', 'Communication', 'Cloud', 'Android', 'C++', 'Php', 'Hadoop', 'Js', 'Analytics', 'Automation', 'Scripting', 'Matlab', 'Json', 'Javascript', 'Python', 'Operating systems', 'Aws', 'Postgresql', 'Apis', 'Coaching', 'Technical', 'Html5', 'Rest', 'Mysql', 'Algorithms', 'Testing', 'Database', 'Api', 'Website', 'Nosql', 'Architecture', 'System', 'Java', 'Responses', 'Threading', 'Teaching', 'Agile', 'Css', 'Xml']",aboli lagad stevenson blvd fremont ca lagaduscedu lagad education master science computer science university southern california la ca may coursework analysis algorithms computer networks artificial intelligence programming systems design inf ormation retrieval web search engines operating systems web technologies database bachelor engineering electronics telecommunication university pune india may co comparative imp lementation doa algorithms international journal engineering management top students recipient various high academic performance awards experience yobs technologies software engineer intern los angeles ca nov april work ing closely member agile development team ensur ing timely deployment sprint improved efficiencies identifying bottlenecks slow parts p ython code using profiler developed utomation testing tool nodejs periodic tests ensure data integrity scheduled jenkins knobull inc software engineer intern los angeles ca dec feb worked software engineer develop end end design using angular js nodejs mongodb expressjs implemented using express framework perform various http requests tested using postman implemented authentication validation authorization users essingposting web site using nodejs ibm software engineer india aug jul developed modified various database objects plsql procedures triggers indexes part telecom project reduced manual testing efforts creating gui enter data directly databases using javascript html designed knowledge based recommendation system recommend promo packs based likely used deals java collaborated cross functional teams integrate apisservices using xml responses based soa web services refactored opt imized sql queries managed performance tuning reducing cpu usages using explain plans received deep skills award developing project specific critical skills short period time seia solutions seia inc intuitive analytics internship volunteer experience dec may revamped static website responsive design using xml parsers saxdom javascript bootstrap academic projects computer networks project implemented inst ant messaging system using client server architecture used tcp udp sockets communication multi threading multi processing paradigms c computed shortest paths routers network using bellman ford algorithm c search engi ne news site crawled news web pages using web crawler crawlerj indexed using mapreduce java job hadoop ranked using apache solr lucene provided auto correction suggestions markov chains n grams java snippets based urrence search phrase artificial intelligence projects python implemented reversiothello game using alpha beta pruning find next best move sat encoder generating conjunctive normal formcnf sentences walksat dpll algorithms find satisfying solution computed various probabilities decision network determine best decision congress information search mobile development developed ndroid application java android studio information congres legislature bills committees favorites tabs parsing json response sunlight restfull api used php server side scripting hosted aws ec cloud personal project autonomous teaching system web applications created web application online coaching system feature avoid duplicate doubts posted students professor presented similar doubts already saved system displayed suggestions using angularjs javascript html css front end ajax avoid page refresh php back end rethinkdb nosql save data languages web technologies data technical skills java c c python matlab waterfall agile heroku aws git javascript php css angularjs jquery map reduce bootstrap ajax nodejs json html expressjs sql plsql mysql postgresql mvc nosql object oriented programming design data structures distributed systems test driven development
+"abhishekbhav
+e.000webhostapp.com/
+ 
+ 
+ 
+linkedin.com/in/abhishekbhave26
+   
+github.com/abhishekbhave26
+ 
+ 
+Abhishek Vijay Bhave
+ 
+            
+ 
+ 
+443
+-
+956
+-
+1447
+ 
+        
+    
+    
+     
+abhave@buffalo.edu
+       
+ 
+EDUCATION
+ 
+Master of Science, Computer Science, 
+University at Buffalo
+       
+ 
+   
+ 
+              
+ 
+             
+Aug 2018
+ 
+-
+ 
+Feb 2020
+ 
+ 
+Bachelor of Engineering, Information Technology, University of Mumbai
+ 
+ 
+           
+  
+Aug
+ 
+2014 
+-
+ 
+Jun
+ 
+2018
+ 
+ 
+PROGRAMMING SKILLS
+ 
+Software:
+ 
+Java, Python, R, JavaScript, C
+, 
+C#, Node.js
+, Django,
+ 
+Android
+ 
+D
+atabase/ Cloud
+:
+ 
+MS SQL Server, M
+ySQL, MongoD
+B
+,
+ 
+Azure,
+ 
+Docker,
+ 
+Hadoop, Apache Spark
+, Git, Linux
+ 
+WORK 
+EXPERIENCE
+ 
+Software 
+Engineer Intern
+,
+ 
+ 
+Sodexo,
+ 
+Buffalo
+, NY
+ 
+ 
+ 
+    
+ 
+ 
+ 
+       
+    
+ 
+May
+ 
+201
+9
+ 
+
+ 
+Dec
+ 
+201
+9
+ 
+
+ 
+Data 
+archival enhancement to existing
+ 
+.NET
+ 
+core
+ 
+application thereby reducing query time by 40%.
+ 
+
+ 
+Automated cloud Azure deployment process for Retail Ranger infrastructure.
+ 
+
+ 
+Deployed resource groups and resources using ARM templates.
+ 
+ 
+Web Development Intern
+,
+  
+Swadhar Trust
+      
+ 
+        
+                                                                      
+ 
+June
+ 
+201
+7
+ 
+
+ 
+Aug
+ 
+201
+7
+ 
+
+ 
+
+ 
+ 
+
+ 
+Implemented website using HTML5, CSS3 and jQuery.
+ 
+Responsible for entire SDLC cycle.
+ 
+ACADEMIC 
+PROJECTS
+ 
+S
+imple Dynamo
+ 
+Database
+ 
+ 
+      
+ 
+ 
+ 
+ 
+ 
+ 
+           
+ 
+
+ 
+Distributed key
+-
+value storage system that provides both availability and linearizability via consistent hashing and chain 
+replication and failure handling in Android using Java.
+ 
+
+ 
+Effectively handled concurrent read and writes to the system even under failures while ensuring that every read returns 
+the most recent write.
+ 
+ 
+Large scale Text processing with Hadoop Map Reduce and Apache Spark
+ 
+                      
+ 
+
+ 
+Performed word count and word co
+-
+occurrence on data extracted from Twitter, NYTimes API
+ 
+and Common Crawl.
+ 
+
+ 
+Used MapReduce for this computation and Tableau to visualize the results.
+ 
+ 
+Personalized Evaluation & Education through Gamified Learning 
+ 
+ 
+      
+     
+ 
+
+ 
+
+ 
+
+ 
+Enhanced the teaching learning experience by personalizing education.
+ 
+
+ 
+Built the back
+-
+end of the application using 
+ASP
+.NET fram
+e
+work
+ 
+making use 
+of 
+C# an
+d SQL server.
+ 
+ 
+E
+-
+Commerce Application 
+using 
+ASP.NET Core
+ 
+Microservice
+ 
+
+ 
+Implemented e
+-
+commerce application using 
+.NET microservices
+ 
+using MVC 
+archite
+cture and Entity Framework
+ 
+Core.
+ 
+
+ 
+Create
+d and consumed REST API
+
+s 
+for basic operations like create
+, update, 
+read
+ 
+and delete.
+ 
+                 
+ 
+PERSONAL 
+PROJECTS
+ 
+
+ 
+Distributed Hash Table based on 
+Chord
+:
+ 
+Multiple Android devices form a Chord ring and serve insert, query and delete 
+requests in a distributed fashion.
+ 
+
+ 
+E
+xploratory data analy
+sis
+ 
+in R: 
+Goal was to extract
+, process and visualize 
+data in R.
+ 
+
+ 
+CRUD App using Node
+.
+js:
+ 
+Basic 
+CRUD application 
+using Node.js and MongoDB using MEAN stack.
+ 
+ 
+
+ 
+Digit Recognition using Ensemble Classifier:
+ 
+Implemented logistic regression, SVM, Neural Networks for prediction of 
+digits from images.
+ 
+
+ 
+Banking Account Project:
+ 
+Effectively handled creation of new checking and savings accounts
+ 
+
+ 
+Twitter Bot in Python:
+ 
+Post tweets to Twitter using Tweepy and BeautifulSoup.
+ 
+
+ 
+Football Blog App:
+ 
+Implementing blog app using Django and Python.
+ 
+RELEVANT COURSEWORK
+ 
+
+ 
+Analysis of Algorithms, Data Intensive Computing, Introduction to Machine Learning, Distributed Systems, Advanced 
+Machine Learning, Computer Security
+ 
+
+ 
+Data Structures, Databases, Object Oriented Programming, Operating Systems, Computer Network
+s
+ 
+",BE,"['Security', 'Computer science', 'Programming', 'Engineering', 'R', 'Analysis', 'Twitter', 'Spark', 'Sql', 'C', 'Django', 'Cloud', 'Requests', 'Android', 'C#', 'Hadoop', 'Retail', 'Word', 'Sdlc', 'Javascript', 'Python', 'Operating systems', 'Operations', '.net', 'Docker', 'Banking', 'Html5', 'Rest', 'Beautifulsoup', 'Linux', 'Algorithms', 'Database', 'Website', 'Api', 'Machine learning', 'Architecture', 'System', 'Java', 'Information technology', 'Teaching', 'Tableau', 'Mysql', 'Process']",abhishekbhav ewebhostappcom linkedincominabhishekbhave githubcomabhishekbhave abhishek vijay bhave abhavebuffaloedu education master science computer science university buffalo aug feb bachelor engineering information technology university mumbai aug jun programming skills software java python r javascript c c nodejs django android atabase cloud ms sql server ysql mongod b azure docker hadoop apache spark git linux work experience software engineer intern sodexo buffalo ny may dec data archival enhancement existing net core application thereby reducing query time automated cloud azure deployment process retail ranger infrastructure deployed resource groups resources using arm templates web development intern swadhar trust june aug implemented website using html css jquery responsible entire sdlc cycle academic projects imple dynamo database distributed key value storage system provides availability linearizability via consistent hashing chain replication failure handling android using java effectively handled concurrent read writes system even failures ensuring every read returns recent write large scale text processing hadoop map reduce apache spark performed word count word co urrence data extracted twitter nytimes api common crawl used mapreduce computation tableau visualize results personalized evaluation education gamified learning enhanced teaching learning experience personalizing education built back end application using asp net fram e work making use c sql server e commerce application using aspnet core microservice implemented e commerce application using net microservices using mvc archite cture entity framework core create consumed rest api basic operations like create update read delete personal projects distributed hash table based chord multiple android devices form chord ring serve insert query delete requests distributed fashion e xploratory data analy sis r goal extract process visualize data r crud app using node js basic crud application using nodejs mongodb using mean stack digit recognition using ensemble classifier implemented logistic regression svm neural networks prediction digits images banking ount project effectively handled creation new checking savings ounts twitter bot python post tweets twitter using tweepy beautifulsoup football blog app implementing blog app using django python relevant coursework analysis algorithms data intensive computing introduction machine learning distributed systems advanced machine learning computer security data structures databases object oriented programming operating systems computer network
+"Advait Vivek Ambeskar
+ 
+Phone: (352)
+-
+240
+-
+
+ambeskaradvait@ufl.edu
+ 
+linkedin.com/in/advaitambeskar/
+ 
+
+ 
+advaitambeskar.github.io
+ 
+ 
+EDUCATION
+ 
+
+ 
+Master of Science in Computer Science
+, University of Florida
+, USA.
+ 
+ 
+ 
+    
+December
+ 
+2019
+  
+ 
+
+ 
+B
+achelor of Engineering 
+in 
+E
+lectronics Engineering, University of Mumbai
+, 
+India
+.
+ 
+ 
+June 2017
+ 
+First Class with Distinction
+ 
+ 
+PORTFOLIO
+ 
+
+ 
+Personal Website
+: 
+www.advaitambeskar.com/
+ 
+ 
+
+ 
+Poster: 
+advaitambeskar.github.io/poster
+ 
+SKILLS
+ 
+
+ 
+Programming Languages & Libraries:
+ 
+Java, 
+Python
+, OpenCV, Electron.js
+ 
+
+ 
+Website Development:
+ 
+HTML, CSS, MEAN framework, JavaScript
+ 
+
+ 
+Adobe Creative Suite
+ 
+(
+Proficient in 
+Adobe Photoshop, Adobe Lightroom, Adobe XD
+, Adobe Premier Pro
+)
+ 
+ 
+PROJECT
+S
+ 
+Afridokta 
+
+ 
+Virtual Reality Solution for Telemedicine in Africa
+ 
+
+ 
+Android application development through 
+Unit
+y game engine
+. W
+orked on application design
+, scene programming,
+ 
+and 
+object behavior.
+ 
+Collaborated with a team of four.
+ 
+
+ 
+Worked with 
+Afri
+d
+okta
+ 
+to introduce 
+a proof
+-
+of
+-
+concept virtual reality application
+ 
+to replace traditional telemedicine 
+technology
+.
+ 
+TIBS
+ 
+
+ 
+Traceroute Integrated Bike Sharing Service
+ 
+
+ 
+Introduce
+d 
+bike
+-
+sharing platform
+ 
+using network data
+ 
+usage patterns
+ 
+to improve on
+-
+campus services at UF
+.
+ 
+Led the 
+team of four
+ 
+to 
+develop a proof
+-
+of
+-
+concept 
+android 
+application
+ 
+as a prototype.
+ 
+
+ 
+Project 
+would 
+reduce
+ 
+the carbon footprint 
+by 
+atleast 9
+%
+ 
+to support the Neutral UF Coalition
+ 
+post adoption
+.
+ 
+Quirkly
+
+ 
+Mobile
+ 
+ap
+plication for organizing 
+and scheduling 
+social outings
+ 
+
+ 
+iOS 
+application
+ 
+to improve social interactions by smart match
+-
+up. 
+Presented
+ 
+at
+ 
+ShellHacks
+ 
+2018
+.
+ 
+
+ 
+Worked with a team of 3 
+to 
+design
+ 
+and develop
+ 
+the application
+ 
+aimed at providing risk
+-
+free methods for people to 
+meet new pe
+ople in the real world.
+ 
+RedditSwap 
+
+ 
+Reddit site
+-
+wide sentiment analysis
+ 
+
+ 
+Website using 
+MEAN stack 
+development principles to track transience of sentiment 
+and us
+age
+ 
+patterns 
+using public 
+data from Reddit across the website. Currently de
+veloping 
+front
+-
+end
+ 
+de
+sign using 
+Adobe XD
+.
+ 
+O
+ptimal Path Finding Algorithm for Robotic Systems using Image 
+Processing
+ 
+
+ 
+Des
+i
+gned and implemented an algorithm to provide alternatives to commonly used path fi
+nding algorithms like Dijkstra 
+using 
+Python
+ 
+and 
+image processing
+ 
+tools provided through 
+OpenCV
+.
+ 
+ 
+
+ 
+Awarded best paper
+ 
+at 
+3
+rd
+ 
+International Conference on Computing, Communication, Control and Automation
+, 
+India
+.
+ 
+Previous version of research
+ 
+p
+ublished at 
+2016 
+International Conference on Inventive Computation 
+Technologies (ICICT)
+, Coimbatore, India.  
+ 
+OTHER 
+PROJECTS
+ 
+READHARE
+ 
+January 2014
+ 
+
+ 
+December 2016
+ 
+ 
+
+ 
+Developed and designed 
+a
+n 
+online 
+platform 
+for the
+ 
+students at VIT, 
+Mumbai
+.
+ 
+Published
+ 
+bi
+-
+weekly newsletters for 
+the 
+s
+t
+udents
+.
+ 
+VOLUNTEER 
+ACTIVITIES
+ 
+
+ 
+Webmaster and Head of Research & Development (2014 
+-
+ 
+2016)
+, IEEE Student Branch,
+ 
+Vidyalankar Institute of 
+Technology.
+ 
+",BE,"['Computer science', 'Programming', 'Engineering', 'Prototype', 'Analysis', 'Electronics', 'Html', 'Design', 'Ios', 'Mobile', 'Communication', 'International', 'Android', 'Automation', 'Javascript', 'Python', 'Email', 'Opencv', 'Algorithms', 'Adobe', 'Scheduling', 'Website', 'Java', 'Css', 'Photoshop', 'Research']",advait vivek ambeskar phone ambeskaradvaitufledu linkedincominadvaitambeskar advaitambeskargithubio education master science computer science university florida usa december b achelor engineering e lectronics engineering university mumbai india june first class distinction po folio personal website wwwadvaitambeskarcom poster advaitambeskargithubioposter skills programming languages libraries java python opencv electronjs website development html css mean framework javascript adobe creative suite proficient adobe photoshop adobe lightroom adobe xd adobe premier pro project afridokta virtual reality solution telemedicine africa android application development unit game engine w orked application design scene programming object behavior collaborated team four worked afri okta introduce proof concept virtual reality application replace traditional telemedicine technology tibs traceroute integrated bike sharing service introduce bike sharing platform using network data usage patterns improve campus services uf led team four develop proof concept android application prototype project would reduce carbon footprint atleast support neutral uf coalition post adoption quirkly mobile ap plication organizing scheduling social outings ios application improve social interactions smart match presented shellhacks worked team design develop application aimed providing risk free methods people meet new pe ople real world redditswap reddit site wide sentiment analysis website using mean stack development principles track transience sentiment us age patterns using public data reddit across website currently de veloping front end de sign using adobe xd ptimal path finding algorithm robotic systems using image processing des gned implemented algorithm provide alternatives commonly used path fi nding algorithms like dijkstra using python image processing tools provided opencv awarded best paper rd international conference computing communication control automation india previous version research p ublished international conference inventive computation technologies icict coimbatore india projects readhare january december developed designed n online platform students vit mumbai published bi weekly newsletters udents volunteer activities webmaster head research development ieee student branch vidyalankar institute technology
+"AAKARSH NADELLA
+ 
+875 Lockefield St, Indianapolis, IN 46202
+ 
+| 
+(
+469
+) 
+900
+-
+9835
+ 
+|
+ 
+aakarshnadella14@gmail.com
+ 
+| 
+www.linkedin.com/in/aakarshnadella
+ 
+|
+ 
+https://github.com/aakarshnadella
+ 
+ 
+EDUCATION
+ 
+ 
+
+ 
+Master
+ 
+of
+ 
+Science
+ 
+in
+ 
+Computer
+ 
+and
+ 
+Information
+ 
+Science
+                                                  
+ 
+ 
+   
+ 
+  
+GPA:
+ 
+3.6/4
+ 
+Indiana
+ 
+University
+-
+Purdue
+ 
+University
+ 
+Indianapolis,
+ 
+IN
+                
+ 
+ 
+ 
+   
+ 
+        
+ 
+        
+May
+ 
+2019
+ 
+
+ 
+Bachelor
+ 
+of
+ 
+Technology
+ 
+in
+ 
+Computer
+ 
+Science
+ 
+and
+ 
+Engineering
+       
+ 
+ 
+ 
+                            
+GPA:
+ 
+8.89/10
+ 
+J
+awaharlal
+ 
+N
+ehru
+ 
+T
+echnological
+ 
+U
+niversity
+ 
+K
+akinada
+,
+ 
+India
+ 
+ 
+ 
+                         
+ 
+         
+ 
+ 
+        
+May
+ 
+2017
+ 
+TECHNICAL
+ 
+SKILLS
+ 
+
+ 
+Programming
+ 
+Languages
+ 
+      
+: Python,
+ 
+Java
+, R programming
+, C++, C
+,
+ 
+HTML, CSS, 
+JavaScript, D3.js
+ 
+
+ 
+Query
+ 
+Language                
+      
+: MS SQL, PL/SQL, 
+Apache 
+Pig, PySpark
+, 
+Apache Spark, 
+MongoDB
+ 
+
+ 
+Machine Learning Libraries
+  
+:
+ 
+NumPy, Pandas, Scikit
+-
+ 
+Learn, TensorFlow, NLTK, Keras, Matplotlib  
+ 
+
+ 
+Tools
+ 
+and Technologies 
+     
+     
+:
+ 
+ERwin, SQL Server Management Studio, 
+Tableau, Git/GitHub, 
+DBeaver
+, Jup
+y
+ter
+ 
+PROFESSIONAL
+ 
+EXPERIENCE
+ 
+I
+ndiana University
+ 
+|
+ 
+Indianapolis, Indiana 
+ 
+            
+ 
+ 
+ 
+ 
+ 
+            
+ 
+Sep
+
+7
+ 
+
+ 
+May 2019
+ 
+Research Assistan
+t
+ 
+Multi
+-
+class Classification of 
+Biomedical data to find Protein/Gene Interaction
+ 
+  
+ 
+
+ 
+Adapted and deployed several Natural Language Processing concepts such as POS tagging, Named Entity 
+Recognition, Regular Expressions
+ 
+etc.
+ 
+to 
+determine context words in sentence
+ 
+
+ 
+Hosted UMLS database containing genes and proteins on local SQL server and established 
+its
+ 
+connection with Python 
+to eliminate those sentences which do not contain protein or gene names, thereby improving data quality  
+ 
+
+ 
+Produced word embeddings on processe
+d dataset using one
+-
+hot encoding
+ 
+and Word2Vec
+ 
+ 
+
+ 
+Built 2 deep learning models, one with Convolutional Neural 
+Networks (
+CNN) and another with combination of both 
+Recurrent Neural Networks
+ 
+(R
+NN
+)
+ 
+and CNN to classify given data into 10 different classes
+ 
+using Py
+thon
+ 
+
+ 
+Utilized several modules such as 
+T
+ensor
+F
+low, keras, Scikit
+-
+learn, Matplotlib, NumPy, Pandas, 
+NLTK
+, etc
+. in Python
+ 
+Sentiment Analysis of Indy 500 Twitter data
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Collected data using Python by connecting to Twitter Streaming API 
+& built model
+ 
+using Long Short
+-
+Term Memory 
+(LSTM) architecture based RNN
+ 
+
+ 
+Built Naïve Bayes Classifier using Bigrams after cleaning reviews, eliminating stop words and performing 
+stemming
+ 
+
+ 
+Compared performance of both models, generating 
+Confusion Matrix, 
+Receiver Operating Characteristic 
+c
+urve (ROC) 
+and Normalized Root Mean Square Error (NRMSE)
+ 
+
+ 
+Summarized inconvenience experienced
+ 
+by audience based on negative reviews
+ 
+using Abstract
+ion
+-
+based
+ 
+summarization
+ 
+ 
+
+ 
+Utilized Tenso
+rF
+low, 
+NLTK
+, Genism, Matplotlib and ggplot packages in 
+P
+ython
+ 
+M3Bi India Pvt. Ltd. | 
+Hyderabad, India
+ 
+ 
+ 
+ 
+ 
+ 
+              
+May 2016 
+
+ 
+July 2016
+ 
+ 
+Database Intern
+ 
+
+ 
+Conducted detailed functional dependency analysis and 
+
+achieving presumably highest level of Normalization (Boyce
+
+Codd Normal Form)
+ 
+
+ 
+Designed database in E
+R
+win
+,
+ 
+generated prototype using SQL Server 2016
+ 
+and efficiently 
+loaded records in tables
+ 
+
+ 
+Ensured 
+
+ 
+using
+ 
+MySQL
+ 
+and sensitive data is protected using Dynamic Data Masking
+ 
+PR
+OJECTS
+ 
+Understanding and Implementing Big Data Concepts using Stack 
+Overflow Data
+ 
+             
+Aug
+
+8
+ 
+
+ 
+Dec
+
+8
+  
+ 
+
+ 
+Managed
+ 
+
+Spark SQL and PIG scripts to obser
+ve trends with users and questions posted
+. Wrote an XML parser in Python
+ 
+
+ 
+Utilized 
+Amazon
+ 
+EMR, Amazon EC2 and Amazon S3 for processing data, then v
+isualized results using Tableau 
+ 
+Analyzing Performance of Machine Learning Algorithms using Walmart Stock Price Data
+       
+Jan
+
+8
+ 
+
+ 
+May
+
+8
+ 
+ 
+
+ 
+Performed univariate
+, 
+multivariate feature selection to figure out optimal feature set 
+and cross
+-
+validated it with 
+Recursive Feature Elimination (RFE) 
+ 
+
+ 
+Built predictive models using machine learning algorithms such as Auto Regressive Integrated Moving Average 
+(ARIMA), Support V
+ector Machines (SVM)
+ 
+and
+ 
+RNN
+ 
+using R programming
+ 
+
+ 
+Computed Confusion Matrix
+ 
+and
+ 
+NRMSE 
+to measure performance and remodeled models to improve accuracy
+ 
+Predictive Analytics on Tax Evasion Using Feature Engineering Strategies
+ 
+ 
+         
+ 
+             
+
+
+ 
+
+ 
+
+ 
+Performed feature selection to figure out optimal feature set for data analysis
+ 
+and 
+b
+uilt predictive models using Random 
+Forest, Support Vector Machines (SVM)
+, 
+linear regressio
+n
+ 
+&
+ 
+Back Propagation Neural Networks
+ 
+using R programming
+ 
+
+ 
+
+)
+ 
+ 
+",AE,"['Data analysis', 'Security', 'Pl/sql', 'Programming', 'Engineering', 'Prototype', 'Analysis', 'Matplotlib', 'Twitter', 'Parser', 'Spark', 'Sql', 'Data quality', 'C', 'Html', 'Matrix', 'Predictive analytics', 'Nltk', 'C++', 'Scikit-learn', 'Xml', 'Analytics', 'Word', 'Pandas', 'Javascript', 'Python', 'Github', 'Jupyter', 'Access', 'Pyspark', 'Technical', 'Keras', 'Mysql', 'Algorithms', 'Tensorflow', 'Numpy', 'Database', 'Api', 'Architecture', 'Sql server', 'Java', 'Css', 'Tableau', 'Research', 'R', 'Ggplot', 'Tax']",aakarsh nadella lockefield st indianapolis aakarshnadellagmailcom wwwlinkedincominaakarshnadella education master science computer information science gpa indiana university purdue university indianapolis may bachelor technology computer science engineering gpa j awaharlal n ehru echnological u niversity k akinada india may technical skills programming languages python java r programming c c html css javascript djs query language ms sql plsql apache pig pyspark apache spark mongodb machine learning libraries numpy pandas scikit learn tensorflow nltk keras matplotlib tools technologies erwin sql server management studio tableau gitgithub dbeaver jup ter professional experience ndiana university indianapolis indiana sep may research assistan multi class classification biomedical data find proteingene interaction adapted deployed several natural language processing concepts pos tagging named entity recognition regular expressions etc determine context words sentence hosted umls database containing genes proteins local sql server established connection python eliminate sentences contain protein gene names thereby improving data quality produced word embeddings processe dataset using one hot encoding wordvec built deep learning models one convolutional neural networks cnn another combination recurrent neural networks r nn cnn classify given data different classes using py thon utilized several modules ensor f low keras scikit learn matplotlib numpy pandas nltk etc python sentiment analysis indy twitter data collected data using python connecting twitter streaming api built model using long short term memory lstm architecture based rnn built nave bayes classifier using bigrams cleaning reviews eliminating stop words performing stemming compared performance models generating confusion matrix receiver operating characteristic c urve roc normalized root mean square error nrmse summarized inconvenience experienced audience based negative reviews using abstract ion based summarization utilized tenso rf low nltk genism matplotlib ggplot packages p ython mbi india pvt ltd hyderabad india may july database intern conducted detailed functional dependency analysis achieving presumably highest level normalization boyce codd normal form designed database e r win generated prototype using sql server efficiently loaded records tables ensured using mysql sensitive data protected using dynamic data masking pr ojects understanding implementing big data concepts using stack overflow data aug dec managed spark sql pig scripts obser trends users questions posted wrote xml parser python utilized amazon emr amazon ec amazon processing data v isualized results using tableau analyzing performance machine learning algorithms using walmart stock price data jan may performed univariate multivariate feature selection figure optimal feature set cross validated recursive feature elimination rfe built predictive models using machine learning algorithms auto regressive integrated moving average arima support v ector machines svm rnn using r programming computed confusion matrix nrmse measure performance remodeled models improve uracy predictive analytics tax evasion using feature engineering strategies performed feature selection figure optimal feature set data analysis b uilt predictive models using random forest support vector machines svm linear regressio n back propagation neural networks using r programming
+"AISHWARYAGUPTE
++
+1(408)-966-9104SanJose,CA
+agupte@scu.edu
+EDUCATION
+Master'sinComputerScience
+September2017-June2019
+SantaClaraUniversity,California
+Algorithms,PatternRecognitionandDataMining,Intelligence,Statistics
+BigDataAnalytics
+August2016-February2017
+CDACACTS,Pune,India
+StatisticalAnalysiswithR,MachineLearning,CloudComputing,BusinessAnalyticswithMicrosoft
+Excel
+BachelorsinComputerScience
+July2012-May2016
+UniversityofPune,India
+ObjectOrientedProgramming,DataStructures,DatabaseManagement,OperatingSystems
+WORKEXPERIENCE
+SoftwareEngineer
+[Python,Django,MySQL,MongoDB]
+August2019-September2019
+Bitglass,Inc.
+
+Workedonadashboardforinternaldebuggingandmaintenancebyingestingdatafromthebackend
+database
+TechnologyIntern
+[Python,Javascript]
+April2019-June2019
+SingularityUniversity
+
+Developedfor
+Pepper
+,Softbank'shumanoidrobotusingtheirChoregrapheIDE.
+
+Createdvoiceactivatedinteractivetaskloopsalongwithaccompanyingvisualfeedbacktoshowcase
+therobotscapabilities.
+PROJECTS
+HomeCreditDefaultRisk
+[Python,XGBoost]
+May2018
+
+Analyzedcreditcard,loanapplicationanddemographicdatatocreateusefulfeaturesforpredicting
+defaultingrisk.
+
+UsedXGBoosttopredictifanapplicantiscapableofrepayingloanwithanaccuracyof79.2%.
+ToxicComment
+[Python,scikit-learn]
+January2018
+
+UsedNaiveBayes,LogisticRegressionandSVMswithtextfeaturestodetecttoxicity.
+
+Fine-tunedanSVMmodeltogivethebestaccuracyof97.7%.
+SKILLS
+ProgrammingLanguages
+Python,R,C,C++,Java,Scala
+Libraries
+numpy,scikit-learn,pandas
+DataVisualization
+Tableau,d3.js,R(plotly,ggplot2),Python(seaborn,matplotlib)
+Databases&DistributedSystems
+MySQL,MongoDB,Hadoop
+",AE,"['Programming', 'Interactive', 'Robot', 'Analysis', 'Matplotlib', 'C', 'Django', 'Cloud', 'C++', 'Hadoop', 'Analytics', 'Visual', 'Jose', 'Scala', 'Excel', 'Javascript', 'Python', 'Pandas', 'Xgboost', 'Debugging', 'Mining', 'Statistics', 'Mysql', 'Algorithms', 'Pattern', 'Database', 'Numpy', 'Machine learning', 'Java', 'Tableau', 'R']",aishwaryagupte sanjoseca aguptescuedu education mastersincomputerscience septemberjune santaclarauniversitycalifornia algorithmspatternrecognitionanddataminingintelligencestatistics bigdataanalytics augustfebruary cdacactspuneindia statisticalanalysiswithrmachinelearningcloudcomputingbusinessanalyticswithmicrosoft excel bachelorsincomputerscience julymay universityofpuneindia objectorientedprogrammingdatastructuresdatabasemanagementoperatingsystems workexperience softwareengineer pythondjangomysqlmongodb augustseptember bitglassinc workedonadashboardforinternaldebuggingandmaintenancebyingestingdatafromthebackend database technologyintern pythonjavascript apriljune singularityuniversity developedfor pepper softbankshumanoidrobotusingtheirchoregrapheide createdvoiceactivatedinteractivetaskloopsalongwitha ompanyingvisualfeedbacktoshowcase therobotscapabilities projects homecreditdefaultrisk pythonxgboost may analyzedcreditcardloanapplicationanddemographicdatatocreateusefulfeaturesforpredicting defaultingrisk usedxgboosttopredictifanapplicantiscapableofrepayingloanwithana uracyof toxiccomment pythonscikitlearn january usednaivebayeslogisticregressionandsvmswithtextfeaturestodetecttoxicity finetunedansvmmodeltogivethebesta uracyof skills programminglanguages pythonrccjavascala libraries numpyscikitlearnpandas datavisualization tableaudjsrplotlyggplotpythonseabornmatplotlib databasesdistributedsystems mysqlmongodbhadoop
