@@ -1,16 +1,39 @@
 import os
+import pickle
+from matplotlib.gridspec import GridSpec
 import pandas as pd
-import PyPDF2
 import nltk
-import re
 from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 from pyresparser import ResumeParser
-
+from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.model_selection import train_test_split
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn import metrics
+from sklearn.svm import SVC, LinearSVC, NuSVC
+import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score
+from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
+
 
 Resume_list = []
+wpt = nltk.WordPunctTokenizer()
+stop_words = nltk.corpus.stopwords.words('english')
+skillSet = []
 
+def visualize_data(resume):
+
+  targetCounts = resume['Job_role'].value_counts()
+  targetLabels = resume['Job_role'].unique()
+  # Make square figures and axes
+  plt.figure(1, figsize=(25, 25))
+  the_grid = GridSpec(2, 2)
+  cmap = plt.get_cmap('coolwarm')
+  colors = [cmap(i) for i in np.linspace(0, 1, 3)]
+  plt.subplot(the_grid[0, 1], aspect=1, title='CATEGORY DISTRIBUTION')
+  source_pie = plt.pie(targetCounts, labels=targetLabels, autopct='%1.1f%%', shadow=True, colors=colors)
+  plt.show()
 
 def Get_List_of_resumes(category=''):
   resumes = []
@@ -24,127 +47,40 @@ def Get_List_of_resumes(category=''):
 
 BE_list = Get_List_of_resumes('BE')
 AE_list = Get_List_of_resumes('AE')
-SRE_list=Get_List_of_resumes('SRE')
-
-def processNewFiles(resume):
-  pdfFileObj = open(resume, 'rb')
-  pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-  # print(pdfReader.numPages)
-  # todo run through all page
-
-  pageObj = pdfReader.getPage(0)
-  extracted_text = pageObj.extractText()
-  # dictionary of lists
-
-  data = ResumeParser(resume, skills_file='skills.csv').get_extracted_data()
-
-  return data
+SRE_list = Get_List_of_resumes('SRE')
 
 
 def processFiles(resume_list, current_role_name):
   for resume in resume_list:
-    # pdfFileObj = open(resume, 'rb')
-    # pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-    # print(pdfReader.numPages)
-    # # todo run through all page
-    # pageObj = pdfReader.getPage(0)
-    # extracted_text = pageObj.extractText()
-    extracted_text=''
-    # dictionary of lists
-    data = ResumeParser(resume, skills_file='skills.csv').get_extracted_data()
-    Resume_list.append({'Resume': extracted_text, 'Job_role': current_role_name, 'skills': data['skills']})
-  # print(Resume_list)
+    extracted_text = ''
+    try:
+      data = ResumeParser(resume, skills_file='skills.csv').get_extracted_data()
+
+    except:
+      print('issue creating file', resume)
+    finally:
+      Resume_list.append({'Resume': extracted_text, 'Job_role': current_role_name, 'skills': data['skills']})
 
 
-wpt = nltk.WordPunctTokenizer()
-stop_words = nltk.corpus.stopwords.words('english')
+# processFiles(BE_list, 'BE')
+# processFiles(AE_list, 'AE')
+# processFiles(SRE_list,'SRE')
+# df = pd.DataFrame(Resume_list)
 
+# Already Pickled
+# df.to_pickle('resolvedSkills')
 
-def getFeatureMatrix(data, vocab):
-  featureVector = [0 for i in range(len(vocab))]
+df = pd.read_pickle('resolvedSkills')
 
-  for i in range(len(vocab)):
-    for word in data['skills']:
-      if word.lower() == vocab[i]:
-        featureVector[i] += 1
-
-  print('printing feature vector')
-
-  print(pd.DataFrame(featureVector, columns=vocab))
-
-  print('returning')
-
-  return featureVector
-
-
-def normalize_document(doc):
-  # lower case and remove special characters\whitespaces
-  doc = re.sub(r'[^a-zA-Z\s]', '', doc, re.I | re.A)
-
-  doc = re.sub('http\S+\s*', ' ', doc)  # remove URLs
-  doc = re.sub('RT|cc', ' ', doc)  # remove RT and cc
-  doc = re.sub('#\S+', '', doc)  # remove hashtags
-  doc = re.sub('@\S+', '  ', doc)  # remove mentions
-  doc = re.sub('[%s]' % re.escape("""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""), ' ',
-               doc)  # remove punctuations
-  doc = re.sub(r'[^\x00-\x7f]', r' ', doc)
-  doc = re.sub('\s+', ' ', doc)  # remove extra whitespace
-
-  doc = doc.lower()
-  doc = doc.strip()
-  # tokenize document
-  tokens = wpt.tokenize(doc)
-  # filter stopwords out of document
-  filtered_tokens = [token for token in tokens if token not in stop_words]
-  # re-create document from filtered tokens
-  doc = ' '.join(filtered_tokens)
-  return doc
-
-
-# normalize_corpus = np.vectorize(normalize_document)
-
-processFiles(BE_list, 'BE')
-
-processFiles(AE_list, 'AE')
-
-processFiles(SRE_list,'SRE')
-
-df = pd.DataFrame(Resume_list)
-
-# defining numerical job indices 0 - resumesAE, 1 -BE, 2-SRE
-
-#
-# df.loc[df['Job_role']=='resumesAE','Job_role']=int(0)
-# df.loc[df['Job_role']=='BE','Job_role']=int(1)
-# df.loc[df['Job_role']=='SRE','Job_role']=int(2)
-
-# print(df['skills'])
-
-df['clean_Resume'] = df['Resume'].apply(lambda doc: normalize_document(doc))
-
-df.to_pickle('resolvedSkills')
-
-skillSet = []
+# Plot the job_roles
+visualize_data(df)
 
 for i in range(len(df)):
   curSkillString = (' ').join(df.iloc[i]['skills'])
   skillSet.append(curSkillString)
 
-# for x in df['skills']:
-#   skillString=''
-#   for y  in x:
-#     skillString+=' '
-#     skillString+=y
-#
-#   corpus.append(skillString)
-# corpus = np.array(corpus)
-
-
-# print(corpus)
-
-# norm_corpus = normalize_corpus(corpus)
-# print(norm_corpus)
-
+with open('skillSetToFitCountVector.pkl', 'wb') as f:
+  pickle.dump(skillSet, f)
 
 # instantiate a count vectorizer object
 count_vector = CountVectorizer()
@@ -152,61 +88,92 @@ count_vector = CountVectorizer()
 # fit to our skillset here
 count_vector.fit(skillSet)
 
-# printing vocabulary
-
-print(' vocabulary', str(count_vector.vocabulary_))
-
-print('feature names ', count_vector.get_feature_names())
-
+#Transform the skillset here
 X = count_vector.transform(skillSet)
 
+# Convert the CSV_matrix to Array
 X = X.toarray()
 
-# cv = CountVectorizer(min_df=0.0, max_df=1.0)
-# cv_matrix = cv.fit_transform(norm_corpus)
-# cv_matrix = cv_matrix.toarray()
-# print("HELLO",cv_matrix)
+# print(' vocabulary', str(count_vector.vocabulary_))
+# print('feature names ', count_vector.get_feature_names())
 
-# X=cv_matrix
-
+#Training and test data set input
 y = df['Job_role']
 
-# print(X,y)
-
-
-X_train, X_test, y_train, y_test = train_test_split(X, y)
-
-# y_train=y_train.astype('int')
-
+X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.1)
 
 # Naive Bayes
-from sklearn.naive_bayes import GaussianNB
 
-classifier = GaussianNB()
+classifier = OneVsRestClassifier(GaussianNB())
 classifier.fit(X_train, y_train)
 # Predict Class
 y_pred = classifier.predict(X_test)
-
-# print('predicting for a new file')
-
-# new_data=processNewFiles('./TestingResume/ManojResume.pdf')
-
-# print(new_data['skills'])
-
-
-# vocab= cv.get_feature_names()
-# print("hello", new_data, vocab)
-
-
-# print(classifier.predict(getFeatureMatrix(new_data,vocab)))
-
-# print('done')
-
 # Accuracy
-from sklearn.metrics import accuracy_score
-
 accuracy = accuracy_score(y_test, y_pred)
 
-print('Accuracy so far achieved is')
+print('Accuracy so far achieved in Naive Bayes', accuracy)
 
-print(accuracy)
+# OneVsRestClassifier
+
+
+clf = OneVsRestClassifier(KNeighborsClassifier())
+clf.fit(X_train, y_train)
+prediction = clf.predict(X_test)
+print('Accuracy of KNeighbors Classifier on training set: {:.2f}'.format(clf.score(X_train, y_train)))
+print('Accuracy of KNeighbors Classifier on test set: {:.2f}'.format(clf.score(X_test, y_test)))
+
+print("\n Classification report for classifier %s:\n%s\n" % (clf, metrics.classification_report(y_test, prediction)))
+
+
+gnb = GaussianNB()
+KNN = KNeighborsClassifier(n_neighbors=1)
+MNB = MultinomialNB()
+BNB = BernoulliNB()
+LR = LogisticRegression()
+SDG = SGDClassifier()
+SVC = SVC()
+LSVC = LinearSVC()
+NSVC = NuSVC()
+
+# Train our classifier and test predict
+gnb.fit(X_train, y_train)
+y_test_GNB_model = gnb.predict(X_test)
+print("GaussianNB Accuracy :", accuracy_score(y_test, y_test_GNB_model))
+
+KNN.fit(X_train, y_train)
+y_test_KNN_model = KNN.predict(X_test)
+print("KNN Accuracy :", accuracy_score(y_test, y_test_KNN_model))
+
+MNB.fit(X_train, y_train)
+y_test_MNB_model = MNB.predict(X_test)
+print("MNB Accuracy :", accuracy_score(y_test, y_test_MNB_model))
+
+BNB.fit(X_train, y_train)
+y_test_BNB_model = BNB.predict(X_test)
+print("BNB Accuracy :", accuracy_score(y_test, y_test_BNB_model))
+
+LR.fit(X_train, y_train)
+y_test_LR_model = LR.predict(X_test)
+print("LR Accuracy :", accuracy_score(y_test, y_test_LR_model))
+
+SDG.fit(X_train, y_train)
+y_test_SDG_model = SDG.predict(X_test)
+print("SDG Accuracy :", accuracy_score(y_test, y_test_SDG_model))
+
+SVC.fit(X_train, y_train)
+y_test_SVC_model = SVC.predict(X_test)
+print("SVC Accuracy :", accuracy_score(y_test, y_test_SVC_model))
+
+LSVC.fit(X_train, y_train)
+y_test_LSVC_model = LSVC.predict(X_test)
+print("LSVC Accuracy :", accuracy_score(y_test, y_test_LSVC_model))
+
+NSVC.fit(X_train, y_train)
+y_test_NSVC_model = NSVC.predict(X_test)
+print("NSVC Accuracy :", accuracy_score(y_test, y_test_NSVC_model))
+
+filename = 'SVC.sav'
+pickle.dump(SVC, open(filename, 'wb'))
+
+filename = 'NSVC.sav'
+pickle.dump(NSVC, open(filename, 'wb'))
