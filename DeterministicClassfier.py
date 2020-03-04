@@ -1,4 +1,4 @@
-from testNewResume import processNewFiles
+from testNewResume import processNewFiles,displayRole
 import pandas as pd
 
 
@@ -62,7 +62,7 @@ predicted_role = -1
 for i in range(len(len_List)):
   if len_List[i] == max_Len:
     predicted_role = i
-    break
 
-print('Prediction using skill Matching')
-print(Job_role[predicted_role])
+
+print('\nPrediction using skill Matching')
+displayRole(Job_role[predicted_role])

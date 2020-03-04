@@ -5,6 +5,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 from pyresparser import ResumeParser
 
 
+def displayRole(role):
+  if role=='AE':
+    print('Application Engineer')
+  elif role=='BE':
+    print('Backend Engineer')
+  else:
+    print('Site Reliability Engineer')
 def processNewFiles(resume):
   data = ResumeParser(resume, skills_file='skills.csv').get_extracted_data()
 
@@ -33,7 +40,9 @@ vectorized_candidate = vectorized_candidate.toarray()
 prediction = loaded_model.predict(vectorized_candidate)
 
 print('Prediction using Classifier')
-print(prediction)
+
+displayRole(prediction[0])
+
 
 
 

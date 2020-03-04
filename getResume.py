@@ -16,14 +16,13 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
 
-
 Resume_list = []
 wpt = nltk.WordPunctTokenizer()
 stop_words = nltk.corpus.stopwords.words('english')
 skillSet = []
 
-def visualize_data(resume):
 
+def visualize_data(resume):
   targetCounts = resume['Job_role'].value_counts()
   targetLabels = resume['Job_role'].unique()
   # Make square figures and axes
@@ -34,6 +33,7 @@ def visualize_data(resume):
   plt.subplot(the_grid[0, 1], aspect=1, title='CATEGORY DISTRIBUTION')
   source_pie = plt.pie(targetCounts, labels=targetLabels, autopct='%1.1f%%', shadow=True, colors=colors)
   plt.show()
+
 
 def Get_List_of_resumes(category=''):
   resumes = []
@@ -88,7 +88,7 @@ count_vector = CountVectorizer()
 # fit to our skillset here
 count_vector.fit(skillSet)
 
-#Transform the skillset here
+# Transform the skillset here
 X = count_vector.transform(skillSet)
 
 # Convert the CSV_matrix to Array
@@ -97,33 +97,10 @@ X = X.toarray()
 # print(' vocabulary', str(count_vector.vocabulary_))
 # print('feature names ', count_vector.get_feature_names())
 
-#Training and test data set input
+# Training and test data set input
 y = df['Job_role']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.1)
-
-# Naive Bayes
-
-classifier = OneVsRestClassifier(GaussianNB())
-classifier.fit(X_train, y_train)
-# Predict Class
-y_pred = classifier.predict(X_test)
-# Accuracy
-accuracy = accuracy_score(y_test, y_pred)
-
-print('Accuracy so far achieved in Naive Bayes', accuracy)
-
-# OneVsRestClassifier
-
-
-clf = OneVsRestClassifier(KNeighborsClassifier())
-clf.fit(X_train, y_train)
-prediction = clf.predict(X_test)
-print('Accuracy of KNeighbors Classifier on training set: {:.2f}'.format(clf.score(X_train, y_train)))
-print('Accuracy of KNeighbors Classifier on test set: {:.2f}'.format(clf.score(X_test, y_test)))
-
-print("\n Classification report for classifier %s:\n%s\n" % (clf, metrics.classification_report(y_test, prediction)))
-
+X_train, X_test, y_train, y_test = train_test_split(X, y)
 
 gnb = GaussianNB()
 KNN = KNeighborsClassifier(n_neighbors=1)
@@ -138,39 +115,39 @@ NSVC = NuSVC()
 # Train our classifier and test predict
 gnb.fit(X_train, y_train)
 y_test_GNB_model = gnb.predict(X_test)
-print("GaussianNB Accuracy :", accuracy_score(y_test, y_test_GNB_model))
+print("GaussianNB Accuracy :", accuracy_score(y_test, y_test_GNB_model)*100)
 
 KNN.fit(X_train, y_train)
 y_test_KNN_model = KNN.predict(X_test)
-print("KNN Accuracy :", accuracy_score(y_test, y_test_KNN_model))
+print("KNN Accuracy :", accuracy_score(y_test, y_test_KNN_model)*100)
 
 MNB.fit(X_train, y_train)
 y_test_MNB_model = MNB.predict(X_test)
-print("MNB Accuracy :", accuracy_score(y_test, y_test_MNB_model))
+print("MNB Accuracy :", accuracy_score(y_test, y_test_MNB_model)*100)
 
 BNB.fit(X_train, y_train)
 y_test_BNB_model = BNB.predict(X_test)
-print("BNB Accuracy :", accuracy_score(y_test, y_test_BNB_model))
+print("BNB Accuracy :", accuracy_score(y_test, y_test_BNB_model)*100)
 
 LR.fit(X_train, y_train)
 y_test_LR_model = LR.predict(X_test)
-print("LR Accuracy :", accuracy_score(y_test, y_test_LR_model))
+print("LR Accuracy :", accuracy_score(y_test, y_test_LR_model)*100)
 
 SDG.fit(X_train, y_train)
 y_test_SDG_model = SDG.predict(X_test)
-print("SDG Accuracy :", accuracy_score(y_test, y_test_SDG_model))
+print("SDG Accuracy :", accuracy_score(y_test, y_test_SDG_model)*100)
 
 SVC.fit(X_train, y_train)
 y_test_SVC_model = SVC.predict(X_test)
-print("SVC Accuracy :", accuracy_score(y_test, y_test_SVC_model))
+print("SVC Accuracy :", accuracy_score(y_test, y_test_SVC_model)*100)
 
 LSVC.fit(X_train, y_train)
 y_test_LSVC_model = LSVC.predict(X_test)
-print("LSVC Accuracy :", accuracy_score(y_test, y_test_LSVC_model))
+print("LSVC Accuracy :", accuracy_score(y_test, y_test_LSVC_model)*100)
 
 NSVC.fit(X_train, y_train)
 y_test_NSVC_model = NSVC.predict(X_test)
-print("NSVC Accuracy :", accuracy_score(y_test, y_test_NSVC_model))
+print("NSVC Accuracy :", accuracy_score(y_test, y_test_NSVC_model)*100)
 
 filename = 'SVC.sav'
 pickle.dump(SVC, open(filename, 'wb'))
